@@ -39,5 +39,7 @@ void print_da_array(int *array, int start, int end);
 void copy_array(int *array, int start, int end, int *tmp_arr);
 void recur_split(int *tmp_arr, int start, int end, int *array);
 void merge_it(int *array, int start, int mid, int end, int *tmp_arr);
+void radix_sort(int *array, size_t size);
+void counting_sort(int *array, size_t size, int *output, int place);
 
 #endif
